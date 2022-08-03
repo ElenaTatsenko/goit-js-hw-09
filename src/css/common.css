@@ -16,3 +16,48 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  border: transparent;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.disabled {
+  background-color: rgba(255, 255, 255, .4);
+  color: rgba(0, 0, 0, .4);
+  border-color: rgba(0, 0, 0, .1);
+}
+
+.btn:first-child {
+  margin-right: 10px;
+}
+
+.timer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+span.label {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+span.value {
+  font-size: 20px;
+  text-transform: uppercase;
+}
